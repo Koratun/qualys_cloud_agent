@@ -21,3 +21,6 @@ function Open-Url {
 
 # Open the URL
 Open-Url -url $url
+
+# Delete this script
+Remove-Item -Path $MyInvocation.MyCommand.Path -Force
